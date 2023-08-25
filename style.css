@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    width: 50%;
+    margin: auto;
+  } 
+  .divClock{
+    margin-bottom: 5rem;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    
+  }
+  .clock{
+    width: 50%;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
+    border-radius: 50px;
+    
+  }
+  .divDay{
+    margin-bottom: 5rem;
+    background-color: antiquewhite;
+    border-radius: 50px;
+
+  }
+  .day{   
+    width: 50%;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5rem;
+    border-radius: 50px;
+  }
+  footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+  }
+  footer a{
+    /* text-decoration: none; */
+    color: black;
+    font-size: 5rem;
+  }
